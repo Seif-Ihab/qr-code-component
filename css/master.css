@@ -15,7 +15,7 @@ body {
 
 .container {
     padding: 25px;
-    width: 400px;
+    width: 300px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 12px;
     box-shadow: 0px 4px 20px -2px hsl(216, 15%, 48%);
@@ -24,12 +24,17 @@ body {
 /*start head-image*/
 .container .head-image {
     width: 100%;
-    border-radius: 12px;
+    border-radius: 20px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container .head-image img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*start info*/
@@ -40,14 +45,14 @@ body {
 }
 
 .info p:first-of-type {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
     margin-bottom: 20px;
 }
 
 .info p:last-of-type {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     color: hsl(216, 15%, 48%);
 }
